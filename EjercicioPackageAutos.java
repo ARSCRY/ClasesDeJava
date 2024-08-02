@@ -14,11 +14,11 @@ public class EjercicioPackageAutos {
         System.out.println("Ingrese el año: ");
         String añoAuto = scanner.nextLine();
        
-
-        System.out.println("Datos del carro: " + marcaAuto);
-        System.out.println("Datos del carro: " + modeloAuto);
-        System.out.println("Datos del carro: " + añoAuto);
-
+         System.out.println("Datos finales: ");
+        System.out.println("Carro: " + marcaAuto);
+        System.out.println("Modelo: " + modeloAuto);
+        System.out.println("Año: " + añoAuto);
+       
         scanner.close();
 
     }
