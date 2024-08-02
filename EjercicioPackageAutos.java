@@ -4,22 +4,23 @@ public class EjercicioPackageAutos {
 
     public static void main(String[] args) {
 
-        Scanner marca = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese la marca: ");
-        String marcaAuto = marca.nextLine();
+        String marcaAuto = scanner.nextLine();
 
-        Scanner modelo = new Scanner(System.in);
-        System.out.println("Ingrese la modelo: ");
-        String modeloAuto = modelo.nextLine();
+        System.out.println("Ingrese el modelo: ");
+        String modeloAuto = scanner.nextLine();
         
-        Scanner año = new Scanner(System.in);
-        System.out.println("Ingrese la año: ");
-        String añoAuto = año.nextLine();
+        System.out.println("Ingrese el año: ");
+        String añoAuto = scanner.nextLine();
        
 
         System.out.println("Datos del carro: " + marcaAuto);
         System.out.println("Datos del carro: " + modeloAuto);
         System.out.println("Datos del carro: " + añoAuto);
+
+        scanner.close();
+
     }
 
 }
